@@ -1,2 +1,2 @@
-# Prog-Contest-Helpers
-Example code for programming contests
+# Programming Contest Helpers
+Example code for programming contests. Currently, there is no package integration.
