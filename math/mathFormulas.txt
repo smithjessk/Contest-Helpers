@@ -1,0 +1,12 @@
+Polynomials:
+  Sum of squares of roots
+  Sum of reciprocals of roots
+  Etc. Ask Ali please
+  
+Triangles:
+  Centroid
+  Area (in any # of dimensions)
+  Perimeter (in any # of dimensions)
+  
+Circles:
+  Some stuff
