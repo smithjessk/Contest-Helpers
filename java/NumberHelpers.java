@@ -15,7 +15,17 @@ public class NumberHelpers {
 		}
 		return calcFibonacci(n - 1) + calcFibonacci(n - 2);
 	}
-
+	public int[] name_of_array=new int[100000000];
+	name_of_array[0]=0;name_of_array[1]=1;
+	public static int calcFibonacci_dp(int n) {
+		if(name_of_array[n]!=0){
+			return name_of_array[n];
+		}
+		else{
+			name_of_array[n]=calcFibonacci(n-1)+calcFibonacci(n-2);
+		}
+		return name_of_array[n];
+	}
 	public static int calcTriangle(int n) {
 		return n * (n + 1) / 2;
 	}
