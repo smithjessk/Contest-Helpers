@@ -22,7 +22,7 @@ public class NumberHelpers {
 			return name_of_array[n];
 		}
 		else{
-			name_of_array[n]=calcFibonacci(n-1)+calcFibonacci(n-2);
+			name_of_array[n]=calcFibonacci_dp(n-1)+calcFibonacci_dp(n-2);
 		}
 		return name_of_array[n];
 	}
